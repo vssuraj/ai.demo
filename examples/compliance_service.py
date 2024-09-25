@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 # Mock database of country information
 country_info = {
-    "US": {"name": "United States", "currency": "USD", "compliance_rules": ["Rule1", "Rule2"]},
+    "US": {"name": "United States", "currency": "USD", "compliance_rules": ["No transaction via NR", "Rule2"]},
     "CA": {"name": "Canada", "currency": "CAD", "compliance_rules": ["Rule3", "Rule4"]},
     "GB": {"name": "United Kingdom", "currency": "GBP", "compliance_rules": ["Rule5", "Rule6"]}
 }
